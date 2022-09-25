@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+	char c[30], d[30];
+	scanf("%s", c);
+	scanf("%s", d);
+	printf("\n\n\t\t %s", c);
+	printf(" %s\n", d);
+	return 0;
+}
