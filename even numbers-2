@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int i, input, a = 4;
+    for (i = 0; i < 4; i++)
+    {
+        printf("Number #%d : ", i + 1);
+        scanf("%d", &input);
+        if (input % 2 != 0)
+            a = a - 1;
+    }
+        printf("There are %d number(s) that are even", a);
+}
