@@ -4,7 +4,7 @@ int main()
 {
     int squareSize, r, c;
     printf("Enter square size : ");
-    scanf_s("%d", &squareSize);
+    scanf("%d", &squareSize);
 
     for (r = 0; r < squareSize; r++)
     {
