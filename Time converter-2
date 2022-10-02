@@ -27,5 +27,5 @@ int main()
     cal_hour(input);
     cal_minute(input);
     cal_sec(input);
-    printf("\n The time is \n : %d:%d:%d  :\n", hour, minute, sec);
+    printf("\n The time is converted to \n : %d:%d:%d  :\n", hour, minute, sec);
 }
