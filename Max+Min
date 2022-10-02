@@ -7,7 +7,7 @@ int main()
     for (i = 0; i < 3; i++)
     {
         printf("Number #%d : ", i + 1);
-        scanf_s("%d", &input);
+        scanf("%d", &input);
         if (input > max)
             max = input;
         if (input < min)
