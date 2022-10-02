@@ -11,5 +11,5 @@ int main()
     minute = (input - (hour * 3600)) / 60;
     sec = input - ((hour * 3600) + (minute * 60));
 
-    printf("\n << Count time >> \n : %d:%d:%d  :\n", hour, minute, sec);
+    printf("\n The time is converted to \n : %d:%d:%d  :\n", hour, minute, sec);
 }
